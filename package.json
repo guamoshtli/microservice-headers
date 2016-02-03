@@ -1,0 +1,21 @@
+{
+  "name": "RequestHeaderParserMicroservice",
+  "version": "0.0.7",
+  "description":"Request Header Parser Microservice", 
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Headers"
+  ],
+  "author": "Gonzalo Sandoval Reyes",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
