@@ -6,7 +6,7 @@ module.exports = function(app) {
 			var h=request.headers
 			var lang = h["accept-language"].split(',')[0];
 			var soft = h["user-agent"].split(') ')[0].split(' (')[1] 
-      var ip = request.connection.remoteAddress 
+      var ip = req.connection.socket.remoteAddress
 			var data = {
       "ip-address": ip,
       "language": lang,
