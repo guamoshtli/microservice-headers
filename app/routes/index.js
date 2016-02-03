@@ -11,7 +11,7 @@ module.exports = function(app) {
      request.socket.remoteAddress ||
      request.connection.socket.remoteAddress;
 			var data = {
-      "ip-address": ip,
+      "ipaddress": ip,
       "language": lang,
       "software": soft
     };
