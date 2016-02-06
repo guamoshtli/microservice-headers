@@ -6,7 +6,8 @@ Usage:  http://localhost:8080/whoami
 
 {"ip-address":"127.0.0.1","language":"en-US","software":"X11; Ubuntu; Linux x86_64; rv:44.0"} 
 
-Link:  https://microservice-header.herokuapp.com/whoami
+Link Heroku:  https://microservice-header.herokuapp.com/whoami
+Link Bluemix: http://microservice-headers.mybluemix.net/whoami
 
 References:
 
